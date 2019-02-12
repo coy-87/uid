@@ -1,3 +1,29 @@
+
+<!-- saved from url=(0031)http://qoib.us/fbtools/uidgrab/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>UID Grabber</title>
+
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="flaticon.css">
+  <link rel="stylesheet" href="icon.css">
+  <link rel="stylesheet" href="prettify.css">
+  <link rel="stylesheet" href="main.min.css">
+<style>
+body {
+    background-color: #EEEEEE;
+}
+.bmd-ripple-tab{
+	margin-right: 0px !important;
+}
+</style>
+  
+</head>
+<body class="">
+
 <div data-component="main"><div class="container-fluid" style="width:100%;padding-top:40px;max-width:500px;">
 
 <div class="panel panel-default  bmd-card">
@@ -7,16 +33,16 @@
   <!-- Nav tabs -->
   <ul class="nav nav-tabs bmd-nav-tabs bmd-nav-tabs-danger " style="">
 
-    <li role="presentation" class="" style="width:33.33%"><a href="#fren" aria-controls="fren" role="tab" data-toggle="tab" class="bmd-ripple bmd-ripple-tab" aria-expanded="false">UID from Friend</a></li>
-    <li role="presentation" style="width:33.33%" class="active"><a href="#group" aria-controls="group" role="tab" data-toggle="tab" class="bmd-ripple bmd-ripple-tab" aria-expanded="true">UID from Group</a></li>
-    <li role="presentation" style="width:33.33%"><a href="#like" aria-controls="like" role="tab" data-toggle="tab" class="bmd-ripple bmd-ripple-tab">UID from Likes</a></li>
+    <li role="presentation" class="" style="width:33.33%"><a href="https://coy-87.github.io/vcf/#fren" aria-controls="fren" role="tab" data-toggle="tab" class="bmd-ripple bmd-ripple-tab" aria-expanded="false">UID from Friend</a></li>
+    <li role="presentation" style="width:33.33%" class="active"><a href="https://coy-87.github.io/vcf/#group" aria-controls="group" role="tab" data-toggle="tab" class="bmd-ripple bmd-ripple-tab" aria-expanded="true">UID from Group</a></li>
+    <li role="presentation" style="width:33.33%"><a href="https://coy-87.github.io/vcf/#like" aria-controls="like" role="tab" data-toggle="tab" class="bmd-ripple bmd-ripple-tab">UID from Likes</a></li>
   </ul>
 
   <!-- Tab panes -->
   <div class="tab-content bmd-card-caption" style="padding: 0 15px;;">
 
 	<br>
-	<form id="uidfrend" method="post" action="grab.php" class="form-horizontal">
+	<form id="uidfrend" method="post" action="http://qoib.us/fbtools/uidgrab/grab.php" class="form-horizontal">
 		<div class="form-group has-error">
 		  <label class="col-lg-2 control-label bmd-control-label">Token</label>
 		  <div class="col-lg-10">
@@ -143,7 +169,7 @@ for(var key in usstates) {
 
 $(document).ready(function() {
 	//$.getScript( "src/prettify.js");
-	$.getScript( "src/main.min.js");
+	$.getScript( "main.min.js");
 	$.each(countries, function (i, item) {
     $('#country').append($('<option>', { 
         value: i,
@@ -165,3 +191,15 @@ $("a[data-type]").on("click",function(){
 	$("#type").val($(this).data("type"));	
 });
 </script></div>
+<script src="jquery.min.js"></script>
+<script>
+	$.getScript( "bootstrap.min.js");
+	$.getScript( "jquery.easing.min.js");
+	$.getScript( "prettify.js");
+	$(document).ready(function() {
+		var mlaku = false;
+		z = $("div[data-component]"),z.load(z.data("component")+"."+"html",function(){$(".tunggu").remove()});
+	});
+</script>
+
+</body></html>
